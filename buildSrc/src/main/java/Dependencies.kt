@@ -2,6 +2,7 @@ object Dependencies {
 
     const val gradlePlugin = "com.android.tools.build:gradle:4.1.0"
     const val kotlinGradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}"
+    const val hiltGradlePlugin = "com.google.dagger:hilt-android-gradle-plugin:${Versions.hilt}"
 
     object AndroidX {
         const val appcompat = "androidx.appcompat:appcompat:1.2.0"
@@ -12,6 +13,14 @@ object Dependencies {
         const val cardview = "androidx.cardview:cardview:1.0.0"
         const val recyclerview = "androidx.recyclerview:recyclerview:1.1.0"
         const val pagingRuntime = "androidx.paging:paging-runtime-ktx:${Versions.paging}"
+
+        object Hilt {
+            const val hilt = "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha01"
+
+            object Kapt {
+                const val hiltCompiler = "androidx.hilt:hilt-compiler:1.0.0-alpha01"
+            }
+        }
 
         object Room {
             const val room = "androidx.room:room-runtime:${Versions.room}"
@@ -33,10 +42,14 @@ object Dependencies {
         const val daggerAndroidSupport =
                 "com.google.dagger:dagger-android-support:${Versions.dagger}"
 
+        const val hilt = "com.google.dagger:hilt-android:${Versions.hilt}"
+
         object Kapt {
             const val daggerCompiler = "com.google.dagger:dagger-compiler:${Versions.dagger}"
             const val daggerAndroidProcessor =
                     "com.google.dagger:dagger-android-processor:${Versions.dagger}"
+
+            const val hiltCompiler = "com.google.dagger:hilt-android-compiler:${Versions.hilt}"
         }
     }
 

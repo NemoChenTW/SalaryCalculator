@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     id("kotlin-android")
     id("kotlin-kapt")
+    id("dagger.hilt.android.plugin")
 }
 
 android {
@@ -68,6 +69,11 @@ dependencies {
     implementation(Dependencies.Dagger2.daggerAndroidSupport)
     kapt(Dependencies.Dagger2.Kapt.daggerAndroidProcessor)
     kapt(Dependencies.Dagger2.Kapt.daggerCompiler)
+
+    implementation(Dependencies.Dagger2.hilt)
+    implementation(Dependencies.AndroidX.Hilt.hilt)
+    kapt(Dependencies.Dagger2.Kapt.hiltCompiler)
+    kapt(Dependencies.AndroidX.Hilt.Kapt.hiltCompiler)
 
     testImplementation(Dependencies.Test.junit)
     testImplementation(Dependencies.Test.pagingCommon)
