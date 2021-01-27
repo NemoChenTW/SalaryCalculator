@@ -1,4 +1,4 @@
-package com.nemo.salarycalculator.ui.main
+package com.nemo.salarycalculator.ui.main.viewmodel
 
 import androidx.lifecycle.ViewModel
 
