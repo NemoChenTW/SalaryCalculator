@@ -1,0 +1,137 @@
+[
+  {
+    "level": 1,
+    "salary": 11100,
+    "burden": 255
+  },
+  {
+    "level": 2,
+    "salary": 12540,
+    "burden": 288
+  },
+  {
+    "level": 3,
+    "salary": 13500,
+    "burden": 311
+  },
+  {
+    "level": 4,
+    "salary": 15840,
+    "burden": 365
+  },
+  {
+    "level": 5,
+    "salary": 16500,
+    "burden": 380
+  },
+  {
+    "level": 6,
+    "salary": 17280,
+    "burden": 398
+  },
+  {
+    "level": 7,
+    "salary": 17880,
+    "burden": 411
+  },
+  {
+    "level": 8,
+    "salary": 19047,
+    "burden": 438
+  },
+  {
+    "level": 9,
+    "salary": 20008,
+    "burden": 460
+  },
+  {
+    "level": 10,
+    "salary": 21009,
+    "burden": 483
+  },
+  {
+    "level": 11,
+    "salary": 22000,
+    "burden": 506
+  },
+  {
+    "level": 12,
+    "salary": 23100,
+    "burden": 531
+  },
+  {
+    "level": 13,
+    "salary": 24000,
+    "burden": 552
+  },
+  {
+    "level": 14,
+    "salary": 25200,
+    "burden": 579
+  },
+  {
+    "level": 15,
+    "salary": 26400,
+    "burden": 607
+  },
+  {
+    "level": 16,
+    "salary": 27600,
+    "burden": 635
+  },
+  {
+    "level": 17,
+    "salary": 28800,
+    "burden": 663
+  },
+  {
+    "level": 18,
+    "salary": 30300,
+    "burden": 697
+  },
+  {
+    "level": 19,
+    "salary": 31800,
+    "burden": 732
+  },
+  {
+    "level": 20,
+    "salary": 33300,
+    "burden": 766
+  },
+  {
+    "level": 21,
+    "salary": 34800,
+    "burden": 801
+  },
+  {
+    "level": 22,
+    "salary": 36300,
+    "burden": 835
+  },
+  {
+    "level": 23,
+    "salary": 38200,
+    "burden": 878
+  },
+  {
+    "level": 24,
+    "salary": 40100,
+    "burden": 922
+  },
+  {
+    "level": 25,
+    "salary": 42000,
+    "burden": 966
+  },
+  {
+    "level": 26,
+    "salary": 43900,
+    "burden": 1010
+  },
+  {
+    "level": 27,
+    "salary": 45800,
+    "burden": 1054
+  }
+]
