@@ -15,16 +15,29 @@
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="15dp"
         tools:context=".ui.main.MainFragment">
 
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/actual_salary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Actual salary you want"
+            android:inputType="number"
+            app:layout_constraintEnd_toStartOf="@id/calculate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/calculate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="@{() -> viewModel.getLaborInsuranceList()}"
-            android:text="Click me"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="Calculate"
+            app:layout_constraintBottom_toBottomOf="@id/actual_salary"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
