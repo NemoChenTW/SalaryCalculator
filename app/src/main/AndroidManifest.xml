@@ -3,6 +3,7 @@
     package="com.nemo.salarycalculator">
 
     <application
+        android:name=".ui.main.SalaryCalculatorApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
